@@ -1,0 +1,226 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    background-color: #F2E6D8;
+    color: #393E2E;
+}
+
+/* Header styles */
+header {
+    background-color: #F2E6D8;
+    padding: 1rem 2vw;
+}
+
+header span {
+    margin: 0;
+    color: #80512E;
+    font-size: 2.2rem;
+    font-weight: 700;
+    display: block;
+}
+
+header p {
+    margin: 0.2rem 0 0 0;
+    color: #555924;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #555924;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    display: flex;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    padding: 0.83rem 1.2rem;
+    font-size: 1.05rem;
+    text-decoration: none;
+    color: #F2E6D8;
+    font-weight: 700;
+    min-height: 48px;
+    box-sizing: border-box;
+}
+
+nav li.active a {
+    background-color: #80512E;
+    color: #ffffff;
+}
+
+nav a:hover {
+    background-color: #393E2E;
+    color: #F2E6D8;
+}
+
+/* Main content */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #80512E;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 0.5rem 0 0.8rem 0;
+}
+
+main h2 {
+    color: #555924;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+main p {
+    color: #393E2E;
+    margin: 0 0 0.8rem 0;
+    line-height: 160%;
+}
+
+/* Floated wrapped image on home page */
+figure.wrapped {
+    margin: 0 0 15px 20px;
+    width: 35%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555924;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+/* Image gallery flexbox layout */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 15px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figure img {
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #80512E;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+/* Lists */
+main ol {
+    padding: 0.75rem 35px;
+    background-color: #e5dacb;
+    border-radius: 6px;
+}
+
+main ol li {
+    margin-bottom: 0.4rem;
+    line-height: 1.5;
+}
+
+main dl dt {
+    color: #80512E;
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 1.05rem;
+}
+
+main dl dd {
+    color: #555924;
+    font-size: 0.95rem;
+    margin-left: 20px;
+    line-height: 1.4;
+}
+
+main ul {
+    list-style-type: circle;
+    padding-left: 25px;
+}
+
+main ul li {
+    line-height: 135%;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: #80512E;
+}
+
+main em {
+    font-weight: 400;
+    font-style: italic;
+}
+
+main address {
+    font-style: normal;
+    background-color: #B98874;
+    color: #F2E6D8;
+    padding: 0.6rem 0.9rem;
+    border-radius: 8px;
+    border: 1px solid #555924;
+    width: fit-content;
+    margin-top: 0.5rem;
+}
+
+main address a {
+    color: #F2E6D8;
+    font-weight: 700;
+}
+
+main address a:hover {
+    color: #393E2E;
+}
+
+main a {
+    color: #80512E;
+}
+
+main a:hover {
+    background-color: #e5dacb;
+}
+
+/* Footer styles with clear: both */
+footer {
+    clear: both;
+    border-top: 2px solid #555924;
+    background-color: #F2E6D8;
+    text-align: center;
+    color: #393E2E;
+    font-size: 0.85rem;
+    padding: 1.2rem 0;
+    letter-spacing: 2px;
+}
