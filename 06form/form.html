@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Persephone Stephens">
+    <meta name="description" content="Apply for guinea pig adoption or consultation at Guinea Pig Breeds 101.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guinea Pig Breeds 101: Adoption Inquiry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- start the page header -->
+    <header>
+        <span>Guinea Pig Breeds 101</span>
+        <p>The Ultimate Guide to Cavies</p>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="breeds.html">Breeds</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="form.html">Inquiry Form</a></li>
+        </ul>
+    </nav>
+
+    <!-- start the page main -->
+    <main>
+        <h1>Adoption &amp; Care Inquiry</h1>
+        <form method="get" class="myForm" action="thanks.html">
+            
+            <!-- Fieldset 1: Contact Information -->
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name*<input type="text" name="fname" required placeholder="Jane"></label>
+                <label>Last Name*<input type="text" name="lname" required placeholder="Doe"></label>
+                <label>Email Address*<input type="email" name="email" required placeholder="jane@example.com"></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="801-555-0144"></label>
+            </fieldset>
+
+            <!-- Fieldset 2: Cavy Breed Preference -->
+            <fieldset>
+                <legend>Breed Preference</legend>
+                <label class="radio-label"><input type="radio" name="breedtype" value="short" checked> Short Haired (American, Abyssinian)</label>
+                <label class="radio-label"><input type="radio" name="breedtype" value="long"> Long Haired (Peruvian, Silkie)</label>
+                <label class="radio-label"><input type="radio" name="breedtype" value="hairless"> Hairless (Skinny Pig, Baldwin)</label>
+                <label class="radio-label"><input type="radio" name="breedtype" value="any"> Any Bonded Pair in Need</label>
+            </fieldset>
+
+            <!-- Fieldset 3: Habitat Readiness & Consultation Options -->
+            <fieldset>
+                <legend>Habitat Readiness &amp; Schedule</legend>
+                <label class="check-label"><input type="checkbox" name="cage" value="ready"> Enclosure is at least 7.5 to 10.5 sq ft</label>
+                <label class="check-label"><input type="checkbox" name="hay" value="ready"> Unlimited Timothy Hay &amp; Sipper Ready</label>
+                <label class="check-label"><input type="checkbox" name="vitaminc" value="ready"> Fortified Vitamin C Pellets on Hand</label>
+                <label class="check-label"><input type="checkbox" name="fleece" value="ready"> Fleece Bedding or Paper Bedding Ready</label>
+
+                <label>Preferred Consultation Time
+                    <select name="consult_time">
+                        <option value="none">Please Select a Window</option>
+                        <option value="morning">Morning (9:00am - 12:00pm)</option>
+                        <option value="afternoon">Afternoon (12:00pm - 3:00pm)</option>
+                        <option value="evening">Late Afternoon (3:00pm - 6:00pm)</option>
+                        <option value="weekend">Saturday Orientation (10:00am)</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <!-- Textarea for comments -->
+            <label>Additional Notes or Questions
+                <textarea name="comments" placeholder="Describe your home setup, existing pets, or specific breed questions..."></textarea>
+            </label>
+
+            <!-- Submit button -->
+            <input type="submit" value="Submit Inquiry">
+        </form>
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2026 &bull; Persephone Stephens &bull; Guinea Pig Breeds 101 &bull; <a href="mailto:support@guineapig101.org">Email Us</a></p>
+    </footer>
+</body>
+
+</html>
