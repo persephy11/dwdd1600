@@ -1,0 +1,357 @@
+/* Google Font Import: Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 16px;
+    background-color: #F2E6D8;
+    color: #393E2E;
+}
+
+/* Header styles */
+header {
+    background-color: #F2E6D8;
+    padding: 1rem 2vw;
+}
+
+header span {
+    margin: 0;
+    color: #80512E;
+    font-size: 2.2rem;
+    font-weight: 700;
+    display: block;
+}
+
+header p {
+    margin: 0.2rem 0 0 0;
+    color: #555924;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #555924;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    display: flex;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    padding: 0.83rem 1.2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #F2E6D8;
+    font-weight: 700;
+    min-height: 48px;
+    box-sizing: border-box;
+}
+
+nav .active a {
+    background-color: #80512E;
+    color: #ffffff;
+}
+
+nav a:hover {
+    background-color: #393E2E;
+    color: #F2E6D8;
+}
+
+/* Main styles */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #80512E;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 0.5rem 0 0.8rem 0;
+}
+
+main h2 {
+    color: #555924;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+main p {
+    color: #393E2E;
+    margin: 0 0 0.8rem 0;
+    line-height: 160%;
+}
+
+main a {
+    color: #80512E;
+}
+
+main a:hover {
+    background-color: #e5dacb;
+}
+
+/* Home page image wrap */
+.wrapimage {
+    width: 40%;
+    margin: 0;
+    float: right;
+    margin-left: 2vw;
+}
+
+.wrapimage img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.wrapimage figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555924;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+/* Gallery styles */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 15px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figure img {
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #80512E;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+/* Lists and semantic blocks */
+main ol {
+    padding: 0.75rem 35px;
+    background-color: #e5dacb;
+    border-radius: 6px;
+}
+
+main ol li {
+    margin-bottom: 0.4rem;
+    line-height: 1.5;
+}
+
+main dl dt {
+    color: #80512E;
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 1.05rem;
+}
+
+main dl dd {
+    color: #555924;
+    font-size: 0.95rem;
+    margin-left: 20px;
+    line-height: 1.4;
+}
+
+main ul {
+    list-style-type: circle;
+    padding-left: 25px;
+}
+
+main ul li {
+    line-height: 135%;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: #80512E;
+}
+
+main em {
+    font-weight: 400;
+    font-style: italic;
+}
+
+main address {
+    font-style: normal;
+    background-color: #B98874;
+    color: #F2E6D8;
+    padding: 0.6rem 0.9rem;
+    border-radius: 8px;
+    border: 1px solid #555924;
+    width: fit-content;
+    margin-top: 0.5rem;
+}
+
+main address a {
+    color: #F2E6D8;
+    font-weight: 700;
+}
+
+main address a:hover {
+    color: #393E2E;
+}
+
+/* Form Styling (.myForm matching your template pattern) */
+.myForm {
+    max-width: 650px;
+}
+
+.myForm fieldset {
+    border: 1px solid #555924;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    background-color: #f7ede2;
+    padding: 0.8rem 1.2rem;
+}
+
+.myForm legend {
+    color: #80512E;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0 0.4rem;
+}
+
+.myForm label {
+    margin: 0.6rem 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #393E2E;
+}
+
+.myForm label,
+.myForm select,
+.myForm [type=text],
+.myForm [type=email],
+.myForm [type=tel],
+.myForm textarea {
+    display: block;
+}
+
+.myForm [type=text],
+.myForm [type=email],
+.myForm [type=tel],
+.myForm select,
+.myForm textarea {
+    border: solid 1px #555924;
+    padding: 0.4rem 0.6rem;
+    width: 280px;
+    border-radius: 0.3rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95rem;
+    color: #393E2E;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin-top: 0.3rem;
+}
+
+.myForm textarea {
+    width: 100%;
+    max-width: 450px;
+    height: 6rem;
+}
+
+.myForm :required {
+    background-color: rgba(185, 136, 116, 0.2);
+}
+
+.myForm label.check-label,
+.myForm label.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.myForm [type=radio],
+.myForm [type=checkbox] {
+    accent-color: #80512E;
+    margin: 0;
+    cursor: pointer;
+}
+
+.myForm [type=submit] {
+    background-color: #80512E;
+    border: 1px solid #555924;
+    padding: 0.9rem 2rem;
+    border-radius: 10px;
+    color: #F2E6D8;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 1rem 0 0 0;
+    transition: background-color 0.2s ease;
+}
+
+.myForm [type=submit]:hover {
+    background-color: #555924;
+    color: #ffffff;
+}
+
+/* Footer styles */
+footer {
+    border-top: solid #555924 2px;
+    text-align: center;
+    color: #393E2E;
+    font-size: 0.85rem;
+    padding: 1rem 0;
+    clear: both;
+}
+
+footer a {
+    color: #80512E;
+}
+
+
+/* Floated wrapped image on home page */
+figure.wrapped,
+.wrapimage {
+    width: 40%;
+    margin: 0 0 15px 2vw;
+    float: right;
+}
+
+figure.wrapped img,
+.wrapimage img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+figure.wrapped figcaption,
+.wrapimage figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555924;
+    font-weight: 600;
+    margin-top: 6px;
+}
